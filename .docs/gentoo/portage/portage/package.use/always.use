@@ -1,0 +1,42 @@
+#
+*/* consolekit pulseaudio
+*/* -qt4 -qt5 -cups -handbook -postscript -semantic-desktop
+*/* aac alsa bluetooth cairo caps cdda cdr clang dbus
+*/* encode exif ffmpeg firefox flac fontconfig
+*/* gif glamor gpm gtk icu jpeg lcms ldap lzma
+*/* mad mng mp3 ogg opengl
+*/* pango perl png policykit python qt3support
+*/* sdl svg threads tiff truetype udev udisks unicode usb
+*/* v4l vaapi vdpau vim-syntax vorbis vpx wavpack
+*/* X xattr x264 x265 xcb xcomposite xft xinerama xml xv xvid xvmc
+
+net-ftp/ncftp pch
+net-dns/dnsmasq -lua -nls
+x11-libs/libxcb xkb
+dev-libs/libpcre pcre16
+media-gfx/nomacs -tiff -opencv
+net-misc/iputils -caps -filecaps
+x11-themes/adwaita-icon-theme branding
+x11-terms/rxvt-unicode 256-color alt-font-width fading-colors unicode3 wcwidth xft pixbuf -vanilla
+app-arch/unzip natspec
+media-libs/libpng apng
+dev-lang/python sqlite
+
+media-libs/phonon -vlc
+
+app-arch/p7zip rar -wxwidgets
+app-i18n/fcitx gtk2 gtk3
+x11-misc/dunst dunstify
+
+net-wireless/bluez deprecated
+sys-libs/zlib minizip
+sys-block/gparted
+
+dev-qt/designer -webkit
+kde-plasma/libksysguard -detailedmemory
+
+sys-devel/llvm gold
+www-client/firefox bindist eme-free
+www-client/firefox system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
+dev-db/sqlite secure-delete
+media-libs/libvpx postproc
