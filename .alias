@@ -20,6 +20,7 @@ alias egrep='egrep -i --color=auto'
 # cp() { command cp -i "$@"; }
 # mv() { command mv -i "$@"; }
 
+alias cc5='mpv http://223.110.243.158/PLTV/3/224/3221227468/1.m3u8'
 alias war3='cd "/home/e788b1/Videos/Warcraft III"; LANG=zh_CN.utf8 wine war3.exe -opengl'
 rsyncp() { command rsync -rvh --size-only --progress "$@"; }
 rsyncp2() { command rsync -rvh --size-only --info=progress2 "$@"; }

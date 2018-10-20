@@ -3,13 +3,14 @@
 */* -qt4 -qt5 -cups -handbook -postscript -semantic-desktop
 */* aac alsa bluetooth cairo caps cdda cdr clang dbus
 */* encode exif ffmpeg firefox flac fontconfig
-*/* gif glamor gpm gtk icu jpeg lcms ldap lzma
+*/* gles gles2 gif glamor gpm gtk icu jpeg lcms ldap lzma
 */* mad mng mp3 ogg opengl
 */* pango perl png policykit python qt3support
 */* sdl svg threads tiff truetype udev udisks unicode usb
-*/* v4l vaapi vdpau vim-syntax vorbis vpx wavpack
+*/* v4l vaapi vdpau vim-syntax vorbis vpx wayland wavpack
 */* X xattr x264 x265 xcb xcomposite xft xinerama xml xv xvid xvmc
 
+dev-libs/sway swaygrab swaylock
 net-ftp/ncftp pch
 net-dns/dnsmasq -lua -nls
 x11-libs/libxcb xkb
@@ -37,6 +38,6 @@ kde-plasma/libksysguard -detailedmemory
 
 sys-devel/llvm gold
 www-client/firefox bindist eme-free
-www-client/firefox system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
-dev-db/sqlite secure-delete
-media-libs/libvpx postproc
+# www-client/firefox system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
+# dev-db/sqlite secure-delete
+# media-libs/libvpx postproc

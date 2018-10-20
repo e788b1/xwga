@@ -6,7 +6,7 @@ export XMODIFIERS="@im=fcitx"
 eval "$(ck-launch-session dbus-launch --sh-syntax --exit-with-session)"
 case $(tty | cut -b9-) in
     (1) exec i3                 ;;
-    (2) exec startkde           ;;
+    (2) exec startxfce4         ;;
     (3) exec openbox-session    ;;
 esac
 # exec i3

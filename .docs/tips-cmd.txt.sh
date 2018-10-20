@@ -161,3 +161,6 @@ ffmpeg -i input.avi -c:v libx264 -crf 19 -preset slow -c:a libfaac -b:a 192k -ac
 ffmpeg -i video -c:v libx264 -crf 18 -preset slow -pix_fmt yuv420p -c:a copy output.mkv
 
 mkvextract tracks a.mkv 2:a.ass
+
+# ublock
+http://git.oschina.net/halflife/list/raw/master/ad.txt

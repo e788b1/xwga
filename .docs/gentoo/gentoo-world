@@ -25,6 +25,7 @@ app-shells/bash-completion
 app-shells/zsh
 app-text/convmv
 dev-lang/python
+dev-libs/sway
 dev-python/pip
 dev-vcs/git
 lxde-base/lxappearance

@@ -41,7 +41,7 @@ popup_during_fullscreen smart
 #new_window pixel 2
 # focus_follows_mouse  no
 # force_focus_wrapping yes
-bindsym button3 kill
+bindsym button3 floating toggle
 bindsym --whole-window $mod+Shift+button3 kill
 bindsym $mod+Return       exec $nsi urxvtc
 # bindsym $mod+Shift+Return exec $nsi lilyterm
@@ -59,7 +59,7 @@ bindsym $mod+Home exec $nsi i3action setwall
 bindsym $mod+Insert exec $nsi feh `cat /tmp/current_wallpaper_name`
 bindsym $mod+Delete exec $nsi i3action rmcurrentwall
 bindsym $mod+Escape exec $nsi urxvtc -e htop
-bindsym $mod+grave  exec $nsi i3action winmenu
+bindsym $mod+grave  exec $nsi i3action run
 bindsym $mod+BackSpace exec $nsi i3action locki3
 bindsym $mod+Shift+BackSpace exit
 bindsym $mod+F2 border toggle
@@ -125,10 +125,8 @@ bindsym $mod+d exec $nsi pcmanfm
 # bindsym $mod+d exec $nsi XDG_CURRENT_DESKTOP="KDE" dolphin
 # bindsym $mod+d exec $nsi pcmanfm
 bindsym $mod+Shift+d exec $nsi urxvtc -e ranger
-bindsym $mod+f exec $nsi firefox
-bindsym $mod+Shift+F11 fullscreen
+bindsym $mod+f fullscreen
 bindsym $mod+g exec $nsi firefox
-#--ignore-gpu-blacklist --process-per-site --ppapi-flash-path=/usr/lib64/chromium/PepperFlash/libpepflashplayer.so --ppapi-flash-version=99.9.9.999
 
 bindsym $mod+space       focus mode_toggle
 bindsym $mod+Shift+space floating toggle
